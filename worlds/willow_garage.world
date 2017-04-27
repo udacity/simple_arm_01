@@ -132,9 +132,9 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>0.084796 -0.742207 2.65958 0 0.291642 1.4882</pose>
-        <view_controller>orbit</view_controller>
-        <projection_type>perspective</projection_type>
+	<pose frame=''>-2.744 -7.344 5.865 0 0.579 1.276</pose>
+	<view_controller>orbit</view_controller>
+	<projection_type>perspective</projection_type>
       </camera>
     </gui>
     <model name='ground_plane'>
