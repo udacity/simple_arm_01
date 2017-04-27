@@ -1,7 +1,7 @@
 <launch>
   <!--Include description and control launch files-->
-  <include file="$(find simple_arm)/launch/robot_description.launch"/>
-  <include file="$(find simple_arm)/launch/robot_control.launch"/>
+  <include file="$(find simple_arm)/launch/robot_description.xml"/>
+  <include file="$(find simple_arm)/launch/robot_control.xml"/>
 
   <!--Launch a gazebo world-->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
